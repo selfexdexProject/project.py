@@ -10,7 +10,7 @@ class CryptoPlatform:
         self.transactions = []
 
     def create_user(self, username):
-        self.users[username] = 100  # Give new users an initial balance of 100 tokens
+        self.users[username] = 100  
 
     def make_transaction(self, sender, receiver, amount):
         if sender in self.users and receiver in self.users and self.users[sender] >= amount:
