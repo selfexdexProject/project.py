@@ -41,6 +41,7 @@ print("Bob's balance:", crypto_platform.get_balance("Bob"))
 print("Transactions:")
 for transaction in crypto_platform.transactions:
     print(f"{transaction.sender} sent {transaction.amount} to {transaction.receiver}")
+    
 Output
 vbnet
 Copy code
