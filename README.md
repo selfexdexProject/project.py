@@ -12,7 +12,6 @@ Transaction History: View a list of all transactions that have taken place on th
 Classes
 CryptoTransaction
 Attributes:
-
 sender: The user sending the cryptocurrency.
 receiver: The user receiving the cryptocurrency.
 amount: The amount of cryptocurrency being sent.
