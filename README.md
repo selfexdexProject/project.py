@@ -19,6 +19,7 @@ CryptoPlatform
 Attributes:
 
 
+
 users: A dictionary containing all users and their balances.
 transactions: A list containing all transactions that have taken place.
 Methods:
